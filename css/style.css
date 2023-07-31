@@ -37,12 +37,10 @@ li {
     height: 600px;
 }
 .profile {
-    left: 50%;
-    top: 1%;
+    margin: 2% auto auto 44.5%;
     border-radius: 100%;
     height: 216px;
     width: 216px;
-    
 }
 .name,.jobs {
     color: #ffffff;
@@ -52,36 +50,33 @@ li {
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
+    padding: 5px;
 }
 .name {
     font-size: 48px;
     font-weight: 900;
-    top: 330px;
 }
 .jobs {
     font-size: 24px;
     font-weight: 700;
-    top: 434px;
 }
 button {
     background-color: #1e1e1e;
-    height: 66px;
-    position: absolute;
+    height: 2.5em;
     width: 256px;
     color: #ffffff;
     font-family: "Inter-Regular", Helvetica;
     font-size: 24px;
     font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    text-align: center;
-    top: 600px;
-    left: 43%;
+    border: none;
+    border-radius: 12px;
+    margin-left: 34.5em;
 }
-/*.skillsBox {
+.skillsBox {
     width: 100%;
     height: 682px;
     background: #B2A7B5;
+
 }
 .skills {
     color: #000000;
@@ -90,114 +85,35 @@ button {
     font-weight: 900;
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
-    left: 45%;
-}
-.uxr {
-    text-align: start;
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    position: relative;
-    margin-left: 1%;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: auto;
-    top: 15%;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: normal;
-    width: 300px;
-    padding-left: 10%;
-}
-.art {
-    color: #000000;
-    font-family: "Inter-Bold", Helvetica;
-    position: relative;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    bottom: 35%;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: normal;
-    width: 300px;
+    padding: 1%;
 }
-.visual {
+.uxr,.art,.visual {
     color: #000000;
     font-family: "Inter-Bold", Helvetica;
     position: relative;
-    margin-left: 80%;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: auto;
-    bottom: 83%;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0;
     line-height: normal;
-    width: 300px;
+    display: inline-block;
+    padding: 1% 7%;
+
 }
-.text1 {
+.text1,.text2,.text3 {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     position: relative;
-    margin-left: 1%;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: auto;
-    top: 20%;
     font-size: 32px;
     font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
-    text-align: start;
-    border: 0px none;
-    height: 241px;
-    width: 399px;
-    padding-left: 10%;
-}
-.text2 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    position: relative;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    bottom: 30%;
-    font-size: 32px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
+    display: inline-block;
+    width: 400px;
+    padding: 0 6%;
     text-align: center;
-    border: 0px none;
-    height: 241px;
-    width: 399px;
 }
-.text3 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    position: relative;
-    margin-left: 75%;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: auto;
-    bottom: 79%;
-    right: 5%;
-    font-size: 32px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    text-align: end;
-    border: 0px none;
-    height: 241px;
-    width: 399px;
-}
+
 .work {
     width: 100%;
     height: 2141px; 
@@ -225,7 +141,7 @@ button {
     margin-bottom: auto;
     position: relative;
   }
-.work1,.work2,.work3 {
+/*.work1,.work2,.work3 {
     background: #D9D9D9;
     width: 454px;
     height: 454px;
